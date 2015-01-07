@@ -1,0 +1,83 @@
+html,body
+{
+	color:#000;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:30px;
+}
+
+.fail
+{
+	background-color:red;
+	color:#FFF;
+}
+
+.OK
+{
+	background-color:green;
+	color:#FFF;
+}
+
+#reaction
+{
+	max-height:350px;
+}
+
+p
+{
+	margin-top:15px;
+}
+
+a
+{
+	color:#FFF;
+}
+
+.button
+{
+	border:1px solid #FFF;
+	background:rgba(255,255,255,.7);
+	color:#000;
+	text-decoration:none;
+	padding:5px;
+}
+
+.btn-default
+{
+	color:#333;
+	background-color:#fff;
+	border-color:#ccc;
+}
+
+.btn
+{
+	display:inline-block;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px;
+	text-decoration:none;
+	padding:6px 12px;
+}
+
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default
+{
+	color:#333;
+	background-color:#e6e6e6;
+	border-color:#adadad;
+}
+
+.hide, #time-on-tab-holder
+{
+	display:none;
+}
